@@ -26,13 +26,25 @@ header > .row > div {
 
 #contact {
   margin-left: 2px;
+  background-color: initial;
+  border: initial;
 }
 
 #list-contacts {
+  align-items: center;
   position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+  padding-top: 10px;
+
+  div {
+    text-align: center;
+
+    img {
+      height: 30px;
+      width: 30px;
+    }
+  }
 }
+
 
 #name {
   font-size: 24px;
