@@ -1,4 +1,3 @@
-
 @media (max-width: 1500px) {
   .grid {
     grid-template-columns: repeat(9, 1fr);
@@ -11,11 +10,10 @@
   }
 
   #site-content {
-      padding-left: 15%;
-      padding-right: 15%;
+    padding-left: 15%;
+    padding-right: 15%;
   }
 }
-
 
 @media (max-width: 750px) {
   .grid {
@@ -23,15 +21,13 @@
   }
 
   #experience > .row {
-      display:contents;
+    display: contents;
   }
 
   section {
-      height: 100%;
+    height: 100%;
   }
-
 }
-
 
 @media (max-width: 500px) {
   .grid {
@@ -39,8 +35,7 @@
   }
 
   #site-content {
-      padding-left: 5%;
-      padding-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }
-
