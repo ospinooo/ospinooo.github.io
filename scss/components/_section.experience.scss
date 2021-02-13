@@ -7,14 +7,7 @@
   height: 100%;
 }
 
-#top_timeline {
-  height: 10%;
-  text-align: center;
-  // background-color: red;
-}
-
-
-#content_timeline{
+#content_timeline {
   display: grid;
   height: 80%;
 }
@@ -25,14 +18,13 @@
 
   margin-left: 5px;
   margin-right: 5px;
-  padding-left:10px;
-  padding-right:10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 
   border: 1px solid rgb(219, 219, 219);
   border-radius: 3px;
   background-color: $white-with-opacity;
-  
+
   text-align: center;
 }
-
-
