@@ -1,12 +1,16 @@
-
 #experience > .row {
   padding-top: 10px;
   height: 100%;
-  background-color: aquamarine;
 }
 
 .timeline {
   height: 100%;
+}
+
+#top_timeline {
+  height: 10%;
+  text-align: center;
+  // background-color: red;
 }
 
 
@@ -16,19 +20,19 @@
 }
 
 #content_timeline > .row > .column {
-  border: 1px solid black;
-  border-radius: 3px;
   width: 100%;
   height: 100%;
-  margin-left: 1px;
-  margin-right: 1px;
-  background-color: aquamarine;
+
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left:10px;
+  padding-right:10px;
+
+  border: 1px solid rgb(219, 219, 219);
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.815);
+  
   text-align: center;
 }
 
 
-
-#top_timeline {
-  height: 10%;
-  text-align: center;
-}
