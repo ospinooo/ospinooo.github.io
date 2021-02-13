@@ -2,6 +2,11 @@
 
 body {
   margin: 0%;
+  background-image: url("../assets/background.jpg");
+  background-position: top center 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 #site-content {
@@ -9,14 +14,3 @@ body {
   padding-right: 20%;
 }
 
-
-#background-image {
-  z-index: -1;
-  position: absolute;
-  background-image: url("../assets/background.jpg");
-  background-size: cover;
-  opacity: 0.6;
-  width: 100vw;
-  height: 100vh;
-  margin: 0%;
-}
