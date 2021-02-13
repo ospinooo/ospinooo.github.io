@@ -14,7 +14,13 @@ header > .row {
 }
 
 #contact {
-  background-color: rgba(206, 206, 206, 0.788);   
+  background-color: rgba(206, 206, 206, 0.788);
+}
+
+#list-contacts {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 #name {
