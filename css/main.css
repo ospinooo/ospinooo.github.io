@@ -1,0 +1,153 @@
+
+
+header {
+    padding-top: 50px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+body {
+    margin: 0%;
+}
+
+#background-image {
+    z-index: -1;
+    position: absolute;
+    /* background-origin: padding-box; */
+    background-image: url("../assets/header-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+    width: 100vw;
+    height: 100vh;
+    margin: 0%;
+}
+
+footer {
+    background-color: gray;
+    text-align: center;
+    color: white;
+}
+
+section {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+
+.row {
+    display: flex;
+}
+
+.column-20 {
+    flex: 20%;
+}
+
+.column-80 {
+    flex: 80%;
+}
+
+.column-50 {
+    flex: 50%;
+}
+
+.column {
+    flex: auto;
+}
+
+#personal_info {
+    background-color: aqua;
+}
+
+#contact {
+    background-color: aquamarine;
+}
+
+#experience {
+    /* background-color: blue; */
+}
+
+#projects {
+    background-color: red;
+}
+
+.grid {
+    
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 5px;
+}
+
+.grid > div {
+    background-color: aquamarine;
+    width: 100%;
+    height: 100%;
+
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 3px;
+    
+    /* margin-left: 1px;
+    margin-right: 1px; */
+}
+
+
+#name {
+    font-size: 24px;
+}
+
+#personal_info {
+    text-align: center;
+}
+
+#content_timeline{
+    display: grid;
+}
+
+#content_timeline > .row > .column {
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 100%;
+    height: 100%;
+    margin-left: 1px;
+    margin-right: 1px;
+    background-color: aquamarine;
+}
+
+
+
+#top_timeline {
+    text-align: center;
+}
+
+
+
+@media (max-width: 1200px) {
+    .grid {
+      grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+
+@media (max-width: 750px) {
+    .grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    #experience > .row {
+        display:block;
+
+    }
+}
+
+
+@media (max-width: 500px) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    header {
+        padding: 0;
+    }
+}
+
