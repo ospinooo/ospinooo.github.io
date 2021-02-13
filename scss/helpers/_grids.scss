@@ -1,0 +1,24 @@
+
+.row {
+  display: flex;
+}
+
+.column-20 {
+  flex: 20%;
+}
+
+.column-80 {
+  flex: 80%;
+}
+
+.column-50 {
+  flex: 50%;
+}
+
+.column {
+  flex: auto;
+}
+
+.row > .column {
+  height: 100%;
+}

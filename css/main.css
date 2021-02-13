@@ -1,36 +1,3 @@
-body {
-  margin: 0%;
-}
-
-#site-content {
-  padding-left: 20%;
-  padding-right: 20%;
-}
-
-header {
-  padding-top: 50px;
-}
-
-#background-image {
-  z-index: -1;
-  position: absolute;
-  background-image: url("../assets/header-background.jpg");
-  background-size: cover;
-  opacity: 0.6;
-  width: 100vw;
-  height: 100vh;
-  margin: 0%;
-}
-
-footer {
-  text-align: center;
-  color: white;
-}
-
-section {
-  height: 30vh;
-}
-
 .row {
   display: flex;
 }
@@ -51,6 +18,19 @@ section {
   flex: auto;
 }
 
+.row > .column {
+  height: 100%;
+}
+
+footer {
+  text-align: center;
+  color: white;
+}
+
+header {
+  padding-top: 50px;
+}
+
 header > .row {
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 5px;
@@ -58,47 +38,19 @@ header > .row {
 
 #personal_info {
   font-weight: bold;
+  text-align: center;
 }
 
 #contact {
   background-color: rgba(206, 206, 206, 0.788);
 }
 
-.row > .column {
-  height: 100%;
-}
-
-#projects {
-  background-color: blue;
-}
-
-#projects > .grid {
-  height: 100%;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-gap: 5px;
-}
-
-.grid > div {
-  background-color: aquamarine;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  border: 1px solid black;
-  border-radius: 3px;
-  /* margin-left: 1px;
-  margin-right: 1px; */
-}
-
 #name {
   font-size: 24px;
 }
 
-#personal_info {
-  text-align: center;
+section {
+  height: 30vh;
 }
 
 #experience > .row {
@@ -129,6 +81,51 @@ header > .row {
 #top_timeline {
   height: 10%;
   text-align: center;
+}
+
+#projects {
+  background-color: blue;
+}
+
+#projects > .grid {
+  height: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 5px;
+}
+
+.grid > div {
+  background-color: aquamarine;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 3px;
+  /* margin-left: 1px;
+  margin-right: 1px; */
+}
+
+body {
+  margin: 0%;
+}
+
+#site-content {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+#background-image {
+  z-index: -1;
+  position: absolute;
+  background-image: url("../assets/header-background.jpg");
+  background-size: cover;
+  opacity: 0.6;
+  width: 100vw;
+  height: 100vh;
+  margin: 0%;
 }
 
 @media (max-width: 1500px) {

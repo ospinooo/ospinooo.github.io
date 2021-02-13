@@ -1,0 +1,22 @@
+
+
+body {
+  margin: 0%;
+}
+
+#site-content {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+
+#background-image {
+  z-index: -1;
+  position: absolute;
+  background-image: url("../assets/header-background.jpg");
+  background-size: cover;
+  opacity: 0.6;
+  width: 100vw;
+  height: 100vh;
+  margin: 0%;
+}
