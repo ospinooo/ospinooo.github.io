@@ -1,12 +1,12 @@
 @media (max-width: 1500px) {
   .grid {
-    grid-template-columns: repeat(9, 1fr);
+    grid-template-columns: repeat(6, 1fr);
   }
 }
 
 @media (max-width: 1200px) {
   .grid {
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(5, 1fr);
   }
 
   #site-content {
@@ -15,17 +15,23 @@
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 1000px) {
   .grid {
     grid-template-columns: repeat(4, 1fr);
   }
 
   #experience > .row {
     display: contents;
-  }
 
-  section {
-    height: 100%;
+    div > #jobs {
+      margin-top: 10px;
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
