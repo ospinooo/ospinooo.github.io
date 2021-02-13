@@ -1,8 +1,6 @@
 
-
-
 #projects {
-  background-color: blue;
+  // background-color: $white-with-opacity;
 }
 
 #projects > .grid {
@@ -17,7 +15,7 @@
 }
 
 .grid > div {
-  background-color: aquamarine;
+  background-color: $white-with-opacity;
   width: 100%;
   height: 100%;
 

@@ -8,7 +8,7 @@ header {
 
 
 header > .row > div {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: $white-with-opacity;
   border: 1px solid rgb(209, 209, 209);
   border-radius: $border-radius;
 }
