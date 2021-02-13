@@ -35,12 +35,19 @@ header > .row > div {
   position: relative;
   padding-top: 10px;
 
-  div {
-    text-align: center;
+  a {
+    text-align: 20%;
 
     img {
       height: 30px;
       width: 30px;
+      opacity: 0.9;
+      transition: all .5s ease;
+
+      &:hover {
+        opacity: 1;
+        transform: translateX(15px) scale(1.1) rotate(360deg);
+      }
     }
   }
 }
