@@ -4,5 +4,5 @@ run_http_server:
 	python -m http.server
 
 
-compile_scss:
-	sass scss/main.scss css/main.css
+run_sass_compiler_watchs:
+	sass --watch scss/main.scss css/main.css
