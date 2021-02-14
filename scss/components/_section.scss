@@ -8,4 +8,9 @@ section {
   .cell:last-child:hover {
     background-color: $white-with-opacity;
   }
+
+  .title {
+    text-align: center;
+    color: white;
+  }
 }
