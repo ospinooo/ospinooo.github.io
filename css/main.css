@@ -49,6 +49,11 @@ header {
   padding-top: 35vh;
 }
 
+header > .row {
+  background-color: white;
+  border: 1px solid #d1d1d1;
+  border-radius: 0px;
+}
 header > .row .column-content {
   flex: auto;
 }
@@ -57,10 +62,6 @@ header > .row #name {
 }
 header > .row #personal_info {
   padding-bottom: 10px;
-  background-color: white;
-  border: 1px solid #d1d1d1;
-  border-radius: 0px;
-  margin-right: 2px;
   text-align: center;
 }
 header > .row #personal_info p {
@@ -68,7 +69,8 @@ header > .row #personal_info p {
   padding-right: 20%;
 }
 header > .row #contact {
-  margin-left: 10px;
+  margin-left: 0px;
+  margin-right: 20px;
 }
 header > .row #list-contacts {
   align-items: center;
@@ -238,6 +240,16 @@ section .title {
   #site-content {
     padding-left: 5%;
     padding-right: 5%;
+  }
+}
+@media (max-width: 300px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #site-content {
+    padding-left: 1%;
+    padding-right: 1%;
   }
 }
 
