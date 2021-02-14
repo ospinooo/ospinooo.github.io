@@ -1,20 +1,19 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
 // Helpers
-@import 'helpers/parameters';
-@import 'helpers/functions';
-@import 'helpers/mixins.button';
-@import 'helpers/grids';
+@import "helpers/parameters";
+@import "helpers/functions";
+@import "helpers/mixins.button";
+@import "helpers/grids";
 
 // Components
 @import "components/body";
-@import 'components/footer';
-@import 'components/header';
-@import 'components/section';
-@import 'components/section.experience';
-@import 'components/section.projects';
+@import "components/footer";
+@import "components/header";
+@import "components/section";
+@import "components/section.experience";
+@import "components/section.projects";
+@import "components/modal";
 
 // Layout
-@import 'layout/responsive';
+@import "layout/responsive";

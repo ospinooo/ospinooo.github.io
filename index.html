@@ -9,6 +9,24 @@
     <title>Pablo Ospino Sanchez</title>
   </head>
   <body>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h1 id="title">title</h1>
+        <h2 id="subtitle">subtitle</h2>
+        <h3 id="second_subtitle">subtitle</h3>
+        <br />
+        <p id="description">Description</p>
+        <br />
+        <a href="" id="link"></a>
+        <br />
+        <small id="footer">footer</small>
+      </div>
+    </div>
+
+    <!-- Content -->
     <div id="site-content">
       <header>
         <div class="row">
@@ -43,40 +61,30 @@
             <div class="timeline" id="studies">
               <div id="content_timeline">
                 <div class="row">
-                  <div class="column">
+                  <div class="column cell" id="conservatory">
                     <h3>Professional Music Degree</h3>
                     <h4>Spanish classical guitar</h4>
-                    <p>
-                      <a
-                        href="https://conservatoriopablosarasate.educacion.navarra.es/web/"
-                        >Conservatorio Pablo Sarasate</a
-                      >
-                    </p>
+                    <p>Conservatorio Pablo Sarasate</p>
 
                     <small>Pamplona, Spain</small>
                     <br />
                     <small>2011 - 2017</small>
                   </div>
-                  <div class="column">
+                  <div class="column cell" id="upna">
                     <h3>Computer Science</h3>
                     <h4>Bachelor</h4>
                     <p>
                       Bachelor with Honors<br />
-                      <a href="https://www.unavarra.es/home">UpNa</a>
+                      UpNa
                     </p>
                     <small>Pamplona, Spain</small>
                     <br />
                     <small>2016 - 2020</small>
                   </div>
-                  <div class="column">
+                  <div class="column cell" id="lodz">
                     <h3>Computer Science</h3>
                     <h4>Erasmus</h4>
-                    <p>
-                      Final Thesis with Honors<br /><a
-                        href="https://www.p.lodz.pl/en"
-                        >TUL</a
-                      >
-                    </p>
+                    <p>Final Thesis with Honors<br />TUL ></p>
                     <small>Łódź, Poland</small>
                     <br />
                     <small>Feb 2020 - Jul 2020</small>
@@ -89,21 +97,18 @@
             <div class="timeline" id="jobs">
               <div id="content_timeline">
                 <div class="row">
-                  <div class="column">
+                  <div class="column cell" id="empro">
                     <h3>Software Developer</h3>
-                    <h4>
-                      EOSOL SL.
-                      <a href="https://www.empro-ms.com/home/">EMPRO</a>
-                    </h4>
+                    <h4>EOSOL SL. EMPRO</h4>
                     <p>Monitoring system on Renewable energy powerplants.</p>
                     <p>1 year, 6 months</p>
                     <small>Pamplona, Spain</small>
                     <br />
                     <small>Jul 2018 - Dec 2019</small>
                   </div>
-                  <div class="column">
+                  <div class="column cell" id="nispera">
                     <h3>Software Engineer</h3>
-                    <h4><a href="https://nispera.com/">NISPERA AG.</a></h4>
+                    <h4>NISPERA AG.</h4>
                     <p>
                       Artificial Intelligence on Renewable energy powerplants.
                     </p>
@@ -131,20 +136,42 @@
       <div style="height: 200px"></div>
       <section id="projects">
         <div class="grid">
-          <div><span>This Portfolio</span></div>
-          <div><span>Photoshare</span></div>
-          <div><span>Coronavirus Android App</span></div>
-          <div><span>Flappy Bird AI</span></div>
-          <div><span>Influx-Monitoring</span></div>
-          <div><span>Music Events</span></div>
-          <div><span>Music Events Rest-API</span></div>
-          <div><span>PostgreSQl Docker-compose</span></div>
-          <div><span>FTask Mobile App</span></div>
-          <div><span>Game of Life</span></div>
-          <div><span>Algorithm Program</span></div>
-          <div><span>Celery Scrapper</span></div>
-          <div><span>Todo-ist clone React</span></div>
-          <div><span>MushSnap</span></div>
+          <div class="cell" id="this_portfolio">
+            <span>This Portfolio</span>
+          </div>
+          <div class="cell" id="photoshare"><span>Photoshare</span></div>
+          <div class="cell" id="covid_app">
+            <span>Coronavirus Android App</span>
+          </div>
+          <div class="cell" id="flappy_bird_ai">
+            <span>Flappy Bird AI</span>
+          </div>
+          <div class="cell" id="influx_monitoring">
+            <span>Influx-Monitoring</span>
+          </div>
+          <div class="cell" id="music_events_webapp">
+            <span>Music Events</span>
+          </div>
+          <div class="cell" id="music_events_rest_api">
+            <span>Music Events Rest-API</span>
+          </div>
+          <div class="cell" id="postresql_docker">
+            <span>PostgreSQl Docker-compose</span>
+          </div>
+          <div class="cell" id="ftask_mobile_app">
+            <span>FTask Mobile App</span>
+          </div>
+          <div class="cell" id="game_of_life"><span>Game of Life</span></div>
+          <div class="cell" id="parser_programming_language">
+            <span>Algorithm Program</span>
+          </div>
+          <div class="cell" id="celery_scapper">
+            <span>Celery Scrapper</span>
+          </div>
+          <div class="cell" id="todoist_clone">
+            <span>Todo-ist clone React</span>
+          </div>
+          <div class="cell" id="mushsnap"><span>MushSnap</span></div>
           <div><span>...</span></div>
         </div>
       </section>
@@ -158,5 +185,6 @@
         </p>
       </footer>
     </div>
+    <script src="js/modal-handle.js"></script>
   </body>
 </html>
