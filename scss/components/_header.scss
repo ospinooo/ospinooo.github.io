@@ -1,50 +1,51 @@
 header {
-  padding-top: 50vh;
+  padding-top: 35vh;
 }
 
-header > .row > div {
-  background-color: $white-with-opacity;
-  border: 1px solid rgb(209, 209, 209);
-  border-radius: $border-radius;
-}
+header > .row {
+  .column-content {
+    flex: auto;
+  }
 
-#personal_info {
-  margin-right: 2px;
-  text-align: center;
-}
+  #name {
+    font-size: 30px;
+  }
 
-#personal_info > p {
-  padding-left: 20%;
-  padding-right: 20%;
-}
+  #personal_info {
+    background-color: $white-with-opacity;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: $border-radius;
+    margin-right: 2px;
+    text-align: center;
 
-#contact {
-  margin-left: 2px;
-  background-color: initial;
-  border: initial;
-}
+    p {
+      padding-left: 20%;
+      padding-right: 20%;
+    }
+  }
 
-#list-contacts {
-  align-items: center;
-  position: relative;
-  padding-top: 10px;
+  #contact {
+    margin-left: 10px;
+  }
 
-  a {
-    text-align: 20%;
+  #list-contacts {
+    align-items: center;
+    position: relative;
+    padding-top: 10px;
 
-    img {
-      height: 30px;
-      width: 30px;
-      transition: all 0.5s ease;
-      opacity: 1;
+    a {
+      text-align: 20%;
 
-      &:hover {
-        transform: translateX(15px) rotate(360deg);
+      img {
+        height: 30px;
+        width: 30px;
+        transition: all 0.5s ease;
+        opacity: 1;
+
+        &:hover {
+          transform: translateX(15px) rotate(360deg);
+        }
       }
     }
   }
-}
-
-#name {
-  font-size: 24px;
 }
