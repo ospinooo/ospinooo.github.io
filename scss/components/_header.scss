@@ -3,6 +3,10 @@ header {
 }
 
 header > .row {
+  background-color: $white-with-opacity;
+  border: 1px solid rgb(209, 209, 209);
+  border-radius: $border-radius;
+
   .column-content {
     flex: auto;
   }
@@ -13,10 +17,6 @@ header > .row {
 
   #personal_info {
     padding-bottom: 10px;
-    background-color: $white-with-opacity;
-    border: 1px solid rgb(209, 209, 209);
-    border-radius: $border-radius;
-    margin-right: 2px;
     text-align: center;
 
     p {
@@ -26,7 +26,8 @@ header > .row {
   }
 
   #contact {
-    margin-left: 10px;
+    margin-left: 0px;
+    margin-right: 20px;
   }
 
   #list-contacts {
