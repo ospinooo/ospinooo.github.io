@@ -4,4 +4,8 @@ section {
   .cell:hover {
     background-color: #ddd;
   }
+
+  .cell:last-child:hover {
+    background-color: $white-with-opacity;
+  }
 }
