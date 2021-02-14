@@ -1,26 +1,19 @@
-#projects {
-  // background-color: $white-with-opacity;
-}
-
-#projects > .grid {
-}
-
 .grid {
-  height: 100%;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-gap: 5px;
 
-  div {
+  .cell {
     background-color: $white-with-opacity;
     width: 100%;
     height: 100px;
 
-    align-items: center;
     border: 1px solid black;
     border-radius: $border-radius;
 
-    span {
+    div {
+      margin: 15%;
+      text-align: center;
     }
   }
 }
