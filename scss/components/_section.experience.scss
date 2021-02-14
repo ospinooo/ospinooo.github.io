@@ -27,4 +27,8 @@
   background-color: $white-with-opacity;
 
   text-align: center;
+
+  &:hover {
+    background-color: #ddd;
+  }
 }
