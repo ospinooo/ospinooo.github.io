@@ -1,10 +1,8 @@
-body {
+html {
   font-family: $font-main;
   margin: 0%;
   background-image: url("../assets/background-small.jpg");
-  background-size: cover;
   background-attachment: fixed;
-  backdrop-filter: blur(3px);
 }
 
 #site-content {
