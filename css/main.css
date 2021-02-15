@@ -51,9 +51,10 @@ header {
 }
 
 header > .row {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
   background-color: white;
   border: 1px solid #d1d1d1;
-  border-radius: 0px;
+  border-radius: 10px;
 }
 header > .row .column-content {
   flex: auto;
@@ -94,15 +95,31 @@ header > .row #list-contacts a img:hover {
 section {
   height: fit-content;
 }
-section .cell:hover {
-  background-color: #ddd;
-}
-section .cell:last-child:hover {
+section .cell {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
   background-color: white;
+  width: 100%;
+  height: 100px;
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
 }
-section .title {
-  text-align: center;
+section .cell:hover {
+  background-color: rgba(88, 48, 15, 0.75);
   color: white;
+  backdrop-filter: blur(20px);
+}
+section .wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+section .wrapper .title {
+  padding: 10px;
+  width: fit-content;
+  color: white;
+  background-color: rgba(88, 48, 15, 0.75);
+  backdrop-filter: blur(40px);
+  border-radius: 10px;
 }
 
 #experience > .row {
@@ -118,35 +135,23 @@ section .title {
   display: grid;
   height: 80%;
 }
-
-#content_timeline > .row > .column {
+#content_timeline .column {
   width: 100%;
   height: 100%;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-bottom: 10px;
+  margin: 5px;
   padding-left: 10px;
   padding-right: 10px;
-  border: 1px solid #dbdbdb;
-  border-radius: 0px;
-  background-color: white;
   text-align: center;
-}
-#content_timeline > .row > .column:hover {
-  background-color: #ddd;
 }
 
 .grid {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-gap: 5px;
+  grid-gap: 15px;
 }
 .grid .cell {
-  background-color: white;
   width: 100%;
   height: 100px;
-  border: 1px solid black;
-  border-radius: 0px;
 }
 .grid .cell div {
   margin: 15%;
