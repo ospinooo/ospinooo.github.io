@@ -1,3 +1,9 @@
+@media (max-width: 1600px) {
+  html {
+    background-size: initial;
+  }
+}
+
 @media (max-width: 1500px) {
   .grid {
     grid-template-columns: repeat(6, 1fr);
