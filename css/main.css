@@ -132,8 +132,7 @@ section .wrapper .title {
 }
 
 #content_timeline {
-  display: grid;
-  height: 80%;
+  height: 100%;
 }
 #content_timeline .column {
   width: 100%;
@@ -247,6 +246,17 @@ section .wrapper .title {
   #site-content {
     padding-left: 5%;
     padding-right: 5%;
+  }
+
+  #content_timeline .row {
+    display: flex;
+    flex-direction: column;
+  }
+  #content_timeline .column {
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 10px;
   }
 }
 @media (max-width: 300px) {
