@@ -77,46 +77,189 @@ const modal_data = {
     footer: "Zurich, Switzerland.",
   },
   this_portfolio:{
-
+    title: "Portfolio in 2021.",
+    link_ref: "https://github.com/ospinooo/ospinooo.github.io",
+    link_str: "Github source.",
+    subtitle: "Static website built with pure HTML, SCSS and JS.",
+    second_subtitle: "",
+    description: `
+    Stack:
+    • HTML, SCSS, JS.
+    • Github Pages. (Hosting)
+    • Cloudfare. (SSL)
+    • Namecheap. (Domain provider)`,
+    footer: "Zurich, Switzerland.",
   },
   photoshare:{
-
+    title: "Photoshare.",
+    link_str: "Github source.",
+    link_ref: "https://github.com/ospinooo/ospinooo.github.io",
+    subtitle: "Laravel Website.",
+    second_subtitle: "",
+    description: `
+    Stack:
+    • Laravel (PHP).
+    • MySQL.
+    • AWS S3 (images).
+    • Heroku (Deployment).`,
+    footer: "Pamplona, Spain.",
   },
   covid_app:{
-
+    title: "COVID Statistics app.",
+    link_str: "Github source.",
+    link_ref: "https://github.com/ospinooo/ospinooo.github.io",
+    subtitle: "Android App.",
+    second_subtitle: "",
+    description: `
+    Stack:
+    • Android (Java).
+    • Mapbox.
+    • GSON.
+    • Third party API for the covid data.`,
+    footer: "Lodz, Poland.",
   },
   flappy_bird_ai:{
-
+    title: "Flappy bird AI.",
+    link_str: "Github source.",
+    link_ref: "https://github.com/ospinooo/ospinooo.github.io",
+    subtitle: "Flappy bird game built on python with the extension of NEAT AI algorithm Reinforcement algorithm.",
+    second_subtitle: "",
+    description: `
+    Stack:
+    • Python.
+    • Neat.`,
+    footer: "Pamplona, Spain.",
   },
   influx_monitoring:{
-
+    title: "Monitoring with Influx & Grafana.",
+    link_str: "Github source.",
+    link_ref: "https://github.com/ospinooo",
+    subtitle: "Monitoring ready to be deployed with docker compose, runs telegraf, grafana and Influx.",
+    second_subtitle: "",
+    description: `
+    Stack:
+    • Docker-compose. (CD)
+    • Telegraf. (Agent to gather data)
+    • Grafana
+    • Influx`,
+    footer: "Pamplona, Spain.",
   },
   music_events_webapp:{
-
+    title: "Angular WebApp.",
+    link_str: "Github source.",
+    link_ref: "https://github.com/ospinooo",
+    subtitle: "",
+    second_subtitle: "",
+    description: `
+    Stack:
+    • Angular.
+    • Bulma. (CSS framework)`,
+    footer: "Lodz, Poland.",
   },
   music_events_rest_api:{
-
+    title: "Springboot Backend.",
+    link_str: "Github source.",
+    link_ref: "https://github.com/ospinooo",
+    subtitle: "",
+    second_subtitle: "",
+    description: `
+    Stack:
+    • Springboot.
+    • Hibernate. (ORM)
+    • JWT.`,
+    footer: "Lodz, Poland.",
   },
   postresql_docker:{
-
+    title: "Springboot Backend.",
+    link_str: "Github source.",
+    link_ref: "https://github.com/ospinooo",
+    subtitle: "Simple docker compose that runs a postgresql database with the pgadmin interface.",
+    second_subtitle: "",
+    description: `
+    Stack:
+    • Docker-compose.
+    • PostgreSQL.
+    • PGAdmin.`,
+    footer: "Lodz, Poland.",
   },
   ftask_mobile_app:{
-
+    title: "Android App.",
+    link_str: "Github source.",
+    link_ref: "https://github.com/ospinooo",
+    subtitle: "",
+    second_subtitle: "",
+    description: `
+    Stack:
+    • Docker-compose.
+    • PostgreSQL.
+    • MongoDB.
+    • Parse framework. (Backend).`,
+    footer: "Pamplona, Spain.",
   },
   game_of_life:{
-
+    title: "Game of life in C on terminal.",
+    link_str: "Github source.",
+    link_ref: "https://github.com/ospinooo",
+    subtitle: "",
+    second_subtitle: "",
+    description: `
+    Stack:
+    • C (Programming language)
+    • Terminal (UI)`,
+    footer: "Pamplona, Spain.",
   },
   parser_programming_language:{
-
+    title: "Bison programming language.",
+    link_str: "Github source.",
+    link_ref: "https://github.com/ospinooo",
+    subtitle: "",
+    second_subtitle: "",
+    description: `
+    Stack:
+    • C (Programming language)
+    • Bison
+    • Yacc`,
+    footer: "Pamplona, Spain.",
   },
   celery_scapper:{
-
+    title: "Twitter Celery info scrapper.",
+    link_str: "Github source.",
+    link_ref: "https://github.com/ospinooo",
+    subtitle: "Retrieving info from twitter.",
+    second_subtitle: "",
+    description: `
+    Stack:
+    • Python.
+    • Celery (python framework)
+    • MQTT
+    • Twitter API.`,
+    footer: "Pamplona, Spain.",
   },
   todoist_clone:{
-
+    title: "Todo ist clone on React.",
+    link_str: "Github source.",
+    link_ref: "https://github.com/ospinooo",
+    subtitle: "Retrieving info from twitter.",
+    second_subtitle: "",
+    description: `
+    Stack:
+    • React (Js framework).
+    • SCSS.
+    • Twitter API.`,
+    footer: "Pamplona, Spain.",
   },
   mushsnap:{
-    
+    title: "Mushsnap.",
+    link_str: "Github source.",
+    link_ref: "https://github.com/ospinooo",
+    subtitle: "App to recognize Poison Mushrooms with AI.",
+    second_subtitle: "",
+    description: `
+    Stack:
+    • Python Tensorflow.
+    • Flask.
+    • Android APP.`,
+    footer: "Pamplona, Spain.",
   }
 };
 
