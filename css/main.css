@@ -126,7 +126,7 @@ section .wrapper .title {
   padding: 10px;
   width: fit-content;
   color: white;
-  background-color: rgba(88, 48, 15, 0.75);
+  background-color: #58300f;
   backdrop-filter: blur(40px);
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
@@ -135,6 +135,9 @@ section .wrapper .title {
 #experience > .row {
   padding-top: 10px;
   height: 100%;
+}
+#experience > .row .cell {
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .timeline {
@@ -151,6 +154,20 @@ section .wrapper .title {
   padding-left: 10px;
   padding-right: 10px;
   text-align: center;
+}
+
+#jobs .cell:hover #time,
+#jobs .cell:hover h3 {
+  color: #58300f;
+  transform: scale(1.1);
+  font-weight: 900;
+}
+
+#studies .cell:hover #important,
+#studies .cell:hover h3 {
+  color: #58300f;
+  transform: scale(1.1);
+  font-weight: 900;
 }
 
 .grid {
