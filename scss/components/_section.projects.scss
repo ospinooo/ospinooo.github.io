@@ -6,10 +6,74 @@
   .cell {
     width: 100%;
     height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
 
     div {
-      margin: 15%;
+      backdrop-filter: blur(5px);
+      background-color: rgba(255, 255, 255, 0.8);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1),
+        0 6px 10px 0 rgba(0, 0, 0, 0.2);
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-left: auto;
+      margin-right: auto;
       text-align: center;
+      border-radius: $border-radius;
     }
   }
+}
+
+#this_portfolio {
+  background-image: url("../assets/projects/portfolio2021.png");
+}
+
+#photoshare {
+  background-image: url("../assets/projects/photoshare.png");
+}
+
+#covid_app {
+  background-image: url("../assets/projects/covid_mobile_app.png");
+}
+
+#flappy_bird_ai {
+  background-image: url("../assets/projects/flappy_bird.png");
+}
+
+#influx_monitoring {
+  background-image: url("../assets/projects/influx_monitoring.png");
+}
+
+#music_events_webapp {
+  background-image: url("../assets/projects/music_events.png");
+}
+
+#music_events_rest_api {
+  background-image: url("../assets/projects/music_events_rest_api.png");
+}
+
+#ftask_mobile_app {
+  background-image: url("../assets/projects/ftask.png");
+}
+
+#game_of_life {
+  background-image: url("../assets/projects/game_of_life.png");
+}
+
+#parser_programming_language {
+  background-image: url("../assets/projects/own_programming_language.png");
+}
+
+#celery_scapper {
+  background-image: url("../assets/projects/celery_twitter_scrapper.png");
+}
+
+#todoist_clone {
+  background-image: url("../assets/projects/todoist.png");
+}
+
+#mushsnap {
+  background-image: url("../assets/projects/mushsnap.png");
 }
