@@ -7,6 +7,7 @@ header > .row {
   background-color: $white-with-opacity;
   border: 1px solid rgb(209, 209, 209);
   border-radius: $border-radius;
+  display: flex;
 
   .column-content {
     flex: auto;
@@ -32,13 +33,17 @@ header > .row {
   }
 
   #list-contacts {
-    align-items: center;
-    position: relative;
-    padding-top: 10px;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+
+    a:first-child,
+    a:last-child {
+      margin: auto;
+    }
 
     a {
-      text-align: 20%;
-
       img {
         height: 30px;
         width: 30px;

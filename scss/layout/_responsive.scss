@@ -60,6 +60,22 @@
   }
 }
 
+@media (max-width: 400px) {
+  header > .row {
+    display: flex;
+    flex-direction: column;
+
+    #contact {
+      margin: 0;
+      #list-contacts {
+        justify-content: center;
+        flex-direction: row;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
 @media (max-width: 300px) {
   .grid {
     grid-template-columns: repeat(1, 1fr);

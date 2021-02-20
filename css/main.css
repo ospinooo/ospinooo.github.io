@@ -55,6 +55,7 @@ header > .row {
   background-color: white;
   border: 1px solid #d1d1d1;
   border-radius: 10px;
+  display: flex;
 }
 header > .row .column-content {
   flex: auto;
@@ -75,12 +76,14 @@ header > .row #contact {
   margin-right: 20px;
 }
 header > .row #list-contacts {
-  align-items: center;
-  position: relative;
-  padding-top: 10px;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  flex-direction: column;
 }
-header > .row #list-contacts a {
-  text-align: 20%;
+header > .row #list-contacts a:first-child,
+header > .row #list-contacts a:last-child {
+  margin: auto;
 }
 header > .row #list-contacts a img {
   height: 30px;
@@ -323,6 +326,20 @@ section .wrapper .title {
     margin: 0px;
     padding-left: 0px;
     padding-right: 0px;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 400px) {
+  header > .row {
+    display: flex;
+    flex-direction: column;
+  }
+  header > .row #contact {
+    margin: 0;
+  }
+  header > .row #contact #list-contacts {
+    justify-content: center;
+    flex-direction: row;
     margin-bottom: 10px;
   }
 }
