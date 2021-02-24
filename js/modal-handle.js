@@ -5,12 +5,15 @@ const modal_data = {
     link_str: "Conservatorio Pablo Sarasate",
     subtitle: "6 years",
     second_subtitle: "By Conservatorio Profesional de Música Pablo Sarasate.",
-    description: `Interesting facts:
-    • Specialized in Spanish Guitar performance. Performed around 6 times a year.
+    description: `Being accepted with 12 years old, I studied the great insights of classical music. 
+    Harmony, melodics, composing, music production, music history with music interpretation in piano and Spanish Guitar.
+
+    • Specialized in Spanish Guitar performance I have acted around 6 times per year.
     
-    • Attend Masterclasses of excellent artists such as Marga Escarpa in 2014, Miguel Trápaga in 2015 and Pedro Mateo in 2016. And other musical activities such as singing in the Chorus "Orfeon Pamplones" in 2016.
-    
-    • Extend my music production experience attending in the summer of 2015 an International Music Production School named EUMES in Girona, Barcelona. Working with Cubase Software.`,
+    • Attend Masterclasses of excellent international artists such as Marga Escarpa in 2014, Miguel Trápaga in 2015 and Pedro Mateo in 2016. 
+    • Junior member in the Chorus "Orfeon Pamplones" in 2016.
+
+    • Extend my music production experience attending in the summer of 2015 the International Music Production School EUMES in Girona, Barcelona. Working with Cubase Software.`,
     footer: "Pamplona, Spain.",
   },
   upna:{
@@ -19,7 +22,8 @@ const modal_data = {
     link_str: "UpNa",
     subtitle: "4 years.",
     second_subtitle: "By Public University of Navarra - UpNa.",
-    description: `Interesting facts:
+    description: `
+    Accepted with second highest average, I have studied the 
 
     • 23 / 33 courses with Honors.
     
@@ -37,9 +41,18 @@ const modal_data = {
     link_str: "TUL",
     subtitle: "6 months.",
     second_subtitle: "By Łódź University of Technology - TUL.",
-    description: `• Final Thesis using Deep Learning, CNN, and transfer learning.
+    description: `Attended classes in Interactive web applications and Advanced algorithms and data-structures, getting highest mark possible in both subjects.
+
+    FINAL THESIS (bachelor degree):
+    <strong>"IMPLEMENTATION OF A MOBILE APPLICATION  USING  AI  ALGORITHMS  TO WARN AGAINST POISONOUS MUSHROOMS"</strong>
     
-    THESIS: "IMPLEMENTATION OF A MOBILE APPLICATION  USING  AI  ALGORITHMS  TO WARN AGAINST POISONOUS MUSHROOMS"
+    Complete execution of machine learning process. Research topic, gathering data, structure the data, learning process, optimization and implementation in device-evalutation mode and server-evaluation mode.
+    Cutting-edge techniques such as Transfer learning, CNN, pooling.
+
+    Stack Used:
+    • Python. Tensorflow, tensorflow lite and Jupyter.
+    • Flask & webunicorn for Server-evaluation mode
+    • Android with Java.
     `,
     footer: "Łódź, Poland.",
   },
@@ -48,10 +61,15 @@ const modal_data = {
     link_ref: "https://www.empro-ms.com/home/",
     link_str: "EMPRO",
     subtitle: "1 year 6 months",
-    second_subtitle: "EOSOL - EMPRO is a company focus on the monitoring of SCADA systems. Main product that EMPRO develops is its WebSite, where you have available the data from your powerplant. ",
-    description: String.raw`My role in the company was part on development of SCADA Systems focused on Photovoltaic powerplants (IoT). Main project assigned was the automatic Reports generation. I was the core responsible for the Reports Generation & Notification, design, develop, deployment and maintenance. I also contributed to build forecast power-production system and I have research on Solar devices Predictive maintenance with DeepLearning for innovations in new business lines.
+    second_subtitle: "EMPRO - EOSOL SL.",
+    description: `EMPRO a company that belongs to the group EOSOL SL. EMPRO focus on the monitoring of engineering assets of EOSOL and third clients.
 
-    Stack:
+    Main project assigned was the automatic Reports generation. I was the core responsible for the Reports Generation & Notification. Done database design, development, deployment and maintenance. 
+  
+    Research on Solar devices with DeepLearning for Predictive maintenance purposes for innovation in new business lines.
+    Contributed to build forecast power-production system.
+
+    Main stack:
     • Python (Pandas, numpy, matplotlib, Jinja2, Tensorflow)
     • Javascript (nodejs, ExpressJS, JWT)
     • MySQL & InfluxDB
@@ -62,17 +80,21 @@ const modal_data = {
     title: "Software Engineer.",
     link_ref: "https://www.nispera.com/",
     link_str: "Nispera AG.",
-    subtitle: humanizeDuration(new Date() - new Date(2020, 7, 15), {
+    subtitle: humanizeDuration(new Date() - new Date(2020, 6, 15), {
       language: "en",
       units: ["y", "mo"],
       maxDecimalPoints: 0,
     }),
-    second_subtitle: "Main product that Nispera develops is its WebSite, where you have available the data from your powerplant. ",
-    description: `My role in the company was part on development of SCADA Systems focused on Photovoltaic powerplants (IoT). Main project assigned was the automatic Reports generation. I was the core responsible for the Reports Generation & Notification, design, develop, deployment and maintenance. I also contributed to build forecast power-production system and I have research on Solar devices Predictive maintenance with DeepLearning for innovations in new business lines.
+    second_subtitle: "Nispera AG.",
+    description: `Nispera AG is a Start up founded in 2015 with currently more than 400 assets all over the world.
+
+    Main project assigned is the real-time data acquisition from power-plant assets and third party forecasting and weather services such as NASA (merra2), Metoffice (UK) and DWD (Germany).
+
+    Also, automatic alarms detection & notification for devices on real-time.
 
     Stack:
     • Python (Pandas, tornado, multiprocessing)
-    • MySQL
+    • MySQL - Aurora.
     • Amazon Web Services & Rundeck`,
     footer: "Zurich, Switzerland.",
   },
@@ -98,10 +120,10 @@ const modal_data = {
     second_subtitle: "",
     description: `
     Stack:
-    • Laravel (PHP).
-    • MySQL.
-    • AWS S3 (images).
-    • Heroku (Deployment).`,
+    • Laravel (PHP framework).
+    • Js & Ajax for specific features.
+    • AWS S3 (images storage).
+    • Heroku + Postgres. (Deployment).`,
     footer: "Pamplona, Spain.",
   },
   covid_app:{
@@ -122,12 +144,15 @@ const modal_data = {
     title: "Flappy bird AI.",
     link_str: "Github source.",
     link_ref: "https://github.com/ospinooo/ospinooo.github.io",
-    subtitle: "Flappy bird game built on python with the extension of NEAT AI algorithm Reinforcement algorithm.",
+    subtitle: "",
     second_subtitle: "",
-    description: `
+    description: `Simple Flappy bird game built on python. 
+
+    Built it with artificial intelligence that learns to play. It follows the NEAT Reinforcement algorithm.
+
     Stack:
     • Python.
-    • Neat.`,
+    • Neat library.`,
     footer: "Pamplona, Spain.",
   },
   influx_monitoring:{
@@ -147,39 +172,34 @@ const modal_data = {
   music_events_webapp:{
     title: "Angular WebApp.",
     link_str: "Github source.",
-    link_ref: "https://github.com/ospinooo",
+    link_ref: "https://github.com/ospinooo/events-website",
     subtitle: "",
-    second_subtitle: "",
-    description: `
+    second_subtitle: `Check it out! <a href="https://pabloospino.com/events-website">link</a>`,
+    description: `Web app built with Angular in the frontend and Springboot in the backend. 
+    
+    Used the Bulma framework for easy-fast interface design.
+
     Stack:
     • Angular.
-    • Bulma. (CSS framework)`,
+    • Bulma. (CSS framework)
+    • Github Pages. (deployed)`,
     footer: "Lodz, Poland.",
   },
   music_events_rest_api:{
     title: "Springboot Backend.",
     link_str: "Github source.",
-    link_ref: "https://github.com/ospinooo",
+    link_ref: "https://github.com/ospinooo/events-rest-api",
     subtitle: "",
     second_subtitle: "",
-    description: `
+    description: `Rest API for the Music Events App.
+
+    Interesting: developed with a docker-compose postgresql + pgadmin locally.
+
     Stack:
     • Springboot.
     • Hibernate. (ORM)
+    • PostgreSQL
     • JWT.`,
-    footer: "Lodz, Poland.",
-  },
-  postresql_docker:{
-    title: "Springboot Backend.",
-    link_str: "Github source.",
-    link_ref: "https://github.com/ospinooo",
-    subtitle: "Simple docker compose that runs a postgresql database with the pgadmin interface.",
-    second_subtitle: "",
-    description: `
-    Stack:
-    • Docker-compose.
-    • PostgreSQL.
-    • PGAdmin.`,
     footer: "Lodz, Poland.",
   },
   ftask_mobile_app:{
@@ -188,11 +208,16 @@ const modal_data = {
     link_ref: "https://github.com/ospinooo",
     subtitle: "",
     second_subtitle: "",
-    description: `
+    description: `Ftask is a mobile app that lets you find people to work and to work for other people based on your location.
+
+    Ftask is built with 
+
+    Collaboration with <a href="https://illianechesa.com">Illia nechesa</a>
+
     Stack:
-    • Docker-compose.
-    • PostgreSQL.
+    • Android (Java) 
     • MongoDB.
+    • Mapbox services for mapping.
     • Parse framework. (Backend).`,
     footer: "Pamplona, Spain.",
   },
@@ -203,18 +228,25 @@ const modal_data = {
     subtitle: "",
     second_subtitle: "",
     description: `
+    One of my first programs. It is simple implementation of the famous game Game of life with C programming language on terminal. 
+
     Stack:
     • C (Programming language)
     • Terminal (UI)`,
     footer: "Pamplona, Spain.",
   },
   parser_programming_language:{
-    title: "Bison programming language.",
+    title: "Custom programming language compiler with Bison.",
     link_str: "Github source.",
     link_ref: "https://github.com/ospinooo",
     subtitle: "",
     second_subtitle: "",
     description: `
+    My own programming language with basic features build.
+
+    Features:
+    • 
+
     Stack:
     • C (Programming language)
     • Bison
