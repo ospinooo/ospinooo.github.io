@@ -32,7 +32,7 @@
   .cell:hover {
     #time,
     h3 {
-      color: $hover-cell-color;
+      color: $primary-color;
       transform: scale(1.1);
       font-weight: 900;
     }
@@ -43,7 +43,7 @@
   .cell:hover {
     #important,
     h3 {
-      color: $hover-cell-color;
+      color: $primary-color;
       transform: scale(1.1);
       font-weight: 900;
     }
