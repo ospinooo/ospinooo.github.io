@@ -8,6 +8,7 @@ $(document).on("scroll", function() {
     
     if ($(tag).position().top < pageBottom) {
       $(tag).addClass("fade-in");
+      $(tag).removeClass("fade-in-init");
     } 
   }
 });
