@@ -23,6 +23,16 @@
   }
 }
 
+#reading {
+  .grid {
+    display: flex;
+    justify-content: center;
+    .cell {
+      width: 100px;
+    }
+  }
+}
+
 #this_portfolio {
   background-image: url("../assets/projects/portfolio2021.png");
 }
