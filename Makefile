@@ -5,4 +5,4 @@ run_http_server:
 
 
 run_sass_compiler_watchs:
-	sass --watch scss/main.scss css/main.css
+	sass --watch scss/main.scss css/main.css --style compressed
