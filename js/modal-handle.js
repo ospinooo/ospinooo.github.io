@@ -22,17 +22,14 @@ const modal_data = {
     link_str: "UpNa",
     subtitle: "4 years.",
     second_subtitle: "By Public University of Navarra - UpNa.",
-    description: `
-    Accepted with second highest average, I have studied the 
-
-    • 23 / 33 courses with Honors.
+    description: `• 23 / 33 courses with Honors.
     
     • EURO-INF International program in Informatics Engineering.
-    • Specialized in Machine Learning, Artificial Intelligence, and Computer Vision.
+    • Specialized in <strong>Machine Learning, Artificial Intelligence, and Computer Vision.</strong>
     
     • University student representative in 2017 in the Spanish National Meeting of Students of Technical and Superior Engineering in Computing, Class representative in 2016, 2017, and 2018.
     
-    • Google Hashcode in 2017, 2018 and 2019. Global Game Jam in 2017 and 2018. Hackathon Adidas uCode in 2018.`,
+    • Participated in google Hashcode in 2017, 2018 and 2019. Global Game Jam in 2017 and 2018. Hackathon Adidas uCode in 2018.`,
     footer: "Pamplona, Spain.",
   },
   lodz:{
@@ -41,12 +38,12 @@ const modal_data = {
     link_str: "TUL",
     subtitle: "6 months.",
     second_subtitle: "By Łódź University of Technology - TUL.",
-    description: `Attended classes in Interactive web applications and Advanced algorithms and data-structures, getting highest mark possible in both subjects.
+    description: `Classes in Interactive web applications and Advanced algorithms and data-structures, getting highest mark possible in both subjects.
 
     FINAL THESIS (bachelor degree):
     <strong>"IMPLEMENTATION OF A MOBILE APPLICATION  USING  AI  ALGORITHMS  TO WARN AGAINST POISONOUS MUSHROOMS"</strong>
     
-    Complete execution of machine learning process. Research topic, gathering data, structure the data, learning process, optimization and implementation in device-evalutation mode and server-evaluation mode.
+    Complete execution of machine learning process. Research topic, gathering data, structure the data, learning process, optimization and implementation in device-evaluation mode and server-evaluation mode.
     Cutting-edge techniques such as Transfer learning, CNN, pooling.
 
     Stack Used:
@@ -99,12 +96,13 @@ const modal_data = {
     footer: "Zurich, Switzerland.",
   },
   this_portfolio:{
-    title: "Portfolio in 2021.",
+    title: "Portfolio 2021.",
     link_ref: "https://github.com/ospinooo/ospinooo.github.io",
     link_str: "Github source.",
     subtitle: "Static website built with pure HTML, SCSS and JS.",
     second_subtitle: "",
     description: `
+    Simple website built with pure HTML, SCSS and JS as a portfolio.
     Stack:
     • HTML, SCSS, JS.
     • Github Pages. (Hosting)
@@ -119,6 +117,8 @@ const modal_data = {
     subtitle: "Laravel Website.",
     second_subtitle: "",
     description: `
+    Website built with laravel server-side php framework. USers can create, edit and like posts. Also, admin side not in demo.
+
     Stack:
     • Laravel (PHP framework).
     • Js & Ajax for specific features.
@@ -133,6 +133,8 @@ const modal_data = {
     subtitle: "Android App.",
     second_subtitle: "",
     description: `
+    Simple Android App with general covid statistics from every country. Data taken from a REST API parsed with GSON.
+
     Stack:
     • Android (Java).
     • Mapbox.
@@ -162,6 +164,8 @@ const modal_data = {
     subtitle: "Monitoring ready to be deployed with docker compose, runs telegraf, grafana and Influx.",
     second_subtitle: "",
     description: `
+    Monitoring docker-compose ready-to-deploy.
+
     Stack:
     • Docker-compose. (CD)
     • Telegraf. (Agent to gather data)
@@ -175,7 +179,7 @@ const modal_data = {
     link_ref: "https://github.com/ospinooo/events-website",
     subtitle: "",
     second_subtitle: `Check it out! <a href="https://pabloospino.com/events-website">link</a>`,
-    description: `Web app built with Angular in the frontend and Springboot in the backend. 
+    description: `WebApp built with Angular in the frontend and Spring-boot in the backend. 
     
     Used the Bulma framework for easy-fast interface design.
 
@@ -191,7 +195,7 @@ const modal_data = {
     link_ref: "https://github.com/ospinooo/events-rest-api",
     subtitle: "",
     second_subtitle: "",
-    description: `Rest API for the Music Events App.
+    description: `Rest API for the Music Events App with SpringBoot JWT and Hibernate.
 
     Interesting: developed with a docker-compose postgresql + pgadmin locally.
 
@@ -210,7 +214,7 @@ const modal_data = {
     second_subtitle: "",
     description: `Ftask is a mobile app that lets you find people to work and to work for other people based on your location.
 
-    Ftask is built with 
+    Ftask is built with Android Studio with Java. On the backend it uses the Parse-framework as node-js server and Mongodb database.
 
     Collaboration with <a href="https://illianechesa.com">Illia nechesa</a>
 
@@ -222,13 +226,12 @@ const modal_data = {
     footer: "Pamplona, Spain.",
   },
   game_of_life:{
-    title: "Game of life in C on terminal.",
+    title: "Conway's Game of Life",
     link_str: "Github source.",
     link_ref: "https://github.com/ospinooo",
-    subtitle: "",
-    second_subtitle: "",
-    description: `
-    One of my first programs. It is simple implementation of the famous game Game of life with C programming language on terminal. 
+    subtitle: "Built with C.",
+    second_subtitle: "UI on terminal",
+    description: `One of my first programs. It is simple implementation of the famous game <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Game of life</a> with C programming language on terminal. 
 
     Stack:
     • C (Programming language)
@@ -244,9 +247,6 @@ const modal_data = {
     description: `
     My own programming language with basic features build.
 
-    Features:
-    • 
-
     Stack:
     • C (Programming language)
     • Bison
@@ -254,10 +254,10 @@ const modal_data = {
     footer: "Pamplona, Spain.",
   },
   celery_scapper:{
-    title: "Twitter Celery info scrapper.",
+    title: "Twitter Celery scrapper.",
     link_str: "Github source.",
     link_ref: "https://github.com/ospinooo",
-    subtitle: "Retrieving info from twitter.",
+    subtitle: "Retrieving info from twitter with horizontal scalability.",
     second_subtitle: "",
     description: `
     Stack:
@@ -268,7 +268,7 @@ const modal_data = {
     footer: "Pamplona, Spain.",
   },
   todoist_clone:{
-    title: "Todo ist clone on React.",
+    title: "Todo-ist clone on React.",
     link_str: "Github source.",
     link_ref: "https://github.com/ospinooo",
     subtitle: "Retrieving info from twitter.",
@@ -287,6 +287,12 @@ const modal_data = {
     subtitle: "App to recognize Poison Mushrooms with AI.",
     second_subtitle: "",
     description: `
+    Final thesis project. Research, training, optimization of Model on the Poison Mushrooms classification with Transfer learning.
+
+    Implemented in 2 architectures:
+    - Server-side evaluation.
+    - Mobile. Offline evaluation. (Tensorflow lite)
+
     Stack:
     • Python Tensorflow.
     • Flask.
