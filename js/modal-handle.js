@@ -271,10 +271,9 @@ const modal_data = {
     title: "Todo-ist clone on React.",
     link_str: "Github source.",
     link_ref: "https://github.com/ospinooo",
-    subtitle: "Retrieving info from twitter.",
+    subtitle: "",
     second_subtitle: "",
-    description: `
-    Stack:
+    description: `Stack:
     • React (Js framework).
     • SCSS.
     • Twitter API.`,
