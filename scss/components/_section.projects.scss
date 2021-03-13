@@ -29,6 +29,10 @@
     justify-content: center;
     .cell {
       width: 100px;
+      div {
+        box-shadow: none;
+        border-radius: none;
+      }
     }
   }
 }
