@@ -74,48 +74,6 @@
       <section class="fade-in-init" id="experience">
         <div class="row">
           <div class="column-50">
-            <div class="timeline" id="studies">
-              <div class="wrapper">
-                <h1 class="title">Studies 👨🏻‍🎓</h1>
-              </div>
-
-              <div id="content_timeline">
-                <div class="row">
-                  <div class="column cell" id="conservatory">
-                    <h3>Professional Music Degree</h3>
-                    <h4>Conservatorio Pablo Sarasate</h4>
-                    <p id="important">Spanish classical guitar</p>
-                    <p>6 years</p>
-                    <small>Pamplona, Spain</small>
-                    <br />
-                    <small>2011 - 2017</small>
-                  </div>
-                  <div class="column cell" id="upna">
-                    <h3>Computer Science</h3>
-                    <h4>Bachelor</h4>
-                    <p id="important">
-                      Bachelor with Honors<br />
-                      UpNa
-                    </p>
-                    <p>4 years</p>
-                    <small>Pamplona, Spain</small>
-                    <br />
-                    <small>2016 - 2020</small>
-                  </div>
-                  <div class="column cell" id="lodz">
-                    <h3>Computer Science</h3>
-                    <h4>Erasmus</h4>
-                    <p id="important">Final Thesis with Honors<br />TUL</p>
-                    <p>6 months</p>
-                    <small>Łódź, Poland</small>
-                    <br />
-                    <small>Feb 2020 - Jul 2020</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="column-50">
             <div class="timeline" id="jobs">
               <div class="wrapper">
                 <h1 class="title">Experience 👨🏻‍💻</h1>
@@ -123,25 +81,14 @@
 
               <div id="content_timeline">
                 <div class="row">
-                  <div class="column cell" id="empro">
-                    <h3>Software Developer</h3>
-                    <h4>EOSOL SL. EMPRO</h4>
-                    <p>Monitoring system on Renewable energy powerplants.</p>
-                    <p id="time">1 year, 6 months</p>
-                    <small>Pamplona, Spain</small>
-                    <br />
-                    <small>Jul 2018 - Dec 2019</small>
-                  </div>
-                  <div class="column cell" id="nispera">
-                    <h3>Software Engineer</h3>
-                    <h4>NISPERA AG.</h4>
-                    <p>
-                      Artificial Intelligence on Renewable energy powerplants.
-                    </p>
+                  <div class="column cell clickable" id="nispera">
+                    <h2>NISPERA AG.</h2>
+                    <h4>Software Engineer</h4>
+                    <p>Artificial Intelligence in renewable energy.</p>
                     <p id="time">
                       <script>
                         document.write(
-                          humanizeDuration(new Date() - new Date(2020, 6, 15), {
+                          humanizeDuration(new Date() - new Date(2020, 5, 15), {
                             language: "en",
                             units: ["y", "mo"],
                             maxDecimalPoints: 0,
@@ -152,6 +99,57 @@
                     <small>Zurich, Switzerland</small>
                     <br />
                     <small>Aug 2020 - Present</small>
+                  </div>
+                  <div class="column cell clickable" id="empro">
+                    <h2>EOSOL SL. EMPRO</h2>
+                    <h4>Software Developer</h4>
+                    <p>Realtime monitoring system on renewable energy.</p>
+                    <p id="time">1 year, 6 months</p>
+                    <small>Pamplona, Spain</small>
+                    <br />
+                    <small>Jul 2018 - Dec 2019</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column-50">
+            <div class="timeline" id="studies">
+              <div class="wrapper">
+                <h1 class="title">Studies 👨🏻‍🎓</h1>
+              </div>
+
+              <div id="content_timeline">
+                <div class="row">
+                  <div class="column cell clickable" id="upna">
+                    <h2>Bachelor</h2>
+                    <h4>Computer Science</h4>
+                    <p id="important">
+                      with Honors<br />
+                      UpNa
+                    </p>
+                    <p>4 years</p>
+                    <small>Pamplona, Spain</small>
+                    <br />
+                    <small>2016 - 2020</small>
+                  </div>
+                  <div class="column cell clickable" id="lodz">
+                    <h2>Erasmus</h2>
+                    <h4>Computer Science</h4>
+                    <p id="important">Final Thesis with Honors<br />TUL</p>
+                    <p>6 months</p>
+                    <small>Łódź, Poland</small>
+                    <br />
+                    <small>Feb 2020 - Jul 2020</small>
+                  </div>
+                  <div class="column cell clickable" id="conservatory">
+                    <h2>Music Degree</h2>
+                    <h4>Professional Conservatorio Pablo Sarasate</h4>
+                    <p id="important">Spanish classical guitar</p>
+                    <p>6 years</p>
+                    <small>Pamplona, Spain</small>
+                    <br />
+                    <small>2011 - 2017</small>
                   </div>
                 </div>
               </div>
@@ -165,39 +163,43 @@
           <h1 class="title">Projects 🛠</h1>
         </div>
         <div class="grid">
-          <div class="cell" id="this_portfolio">
+          <div class="cell clickable" id="this_portfolio">
             <div>This Portfolio</div>
           </div>
-          <div class="cell" id="photoshare"><div>Photoshare</div></div>
-          <div class="cell" id="covid_app">
+          <div class="cell clickable" id="photoshare">
+            <div>Photoshare</div>
+          </div>
+          <div class="cell clickable" id="covid_app">
             <div>Coronavirus Android App</div>
           </div>
-          <div class="cell" id="flappy_bird_ai">
+          <div class="cell clickable" id="flappy_bird_ai">
             <div>Flappy Bird AI</div>
           </div>
-          <div class="cell" id="influx_monitoring">
+          <div class="cell clickable" id="influx_monitoring">
             <div>Influx-Monitoring</div>
           </div>
-          <div class="cell" id="music_events_webapp">
+          <div class="cell clickable" id="music_events_webapp">
             <div>Music Events</div>
           </div>
-          <div class="cell" id="music_events_rest_api">
+          <div class="cell clickable" id="music_events_rest_api">
             <div>Music Events Rest-API</div>
           </div>
-          <div class="cell" id="ftask_mobile_app">
+          <div class="cell clickable" id="ftask_mobile_app">
             <div>FTask Mobile App</div>
           </div>
-          <div class="cell" id="game_of_life"><div>Game of Life</div></div>
-          <div class="cell" id="parser_programming_language">
+          <div class="cell clickable" id="game_of_life">
+            <div>Game of Life</div>
+          </div>
+          <div class="cell clickable" id="parser_programming_language">
             <div>Algorithm Program</div>
           </div>
-          <div class="cell" id="celery_scapper">
+          <div class="cell clickable" id="celery_scapper">
             <div>Celery Scrapper</div>
           </div>
-          <div class="cell" id="todoist_clone">
+          <div class="cell clickable" id="todoist_clone">
             <div>Todo-ist clone React</div>
           </div>
-          <div class="cell" id="mushsnap"><div>MushSnap</div></div>
+          <div class="cell clickable" id="mushsnap"><div>MushSnap</div></div>
         </div>
       </section>
       <div style="height: 200px"></div>

@@ -1,17 +1,6 @@
-@media (max-width: 1500px) {
-  .grid {
-    grid-template-columns: repeat(6, 1fr);
-  }
-}
-
-@media (max-width: 1200px) {
+@media (max-width: 2000px) {
   .grid {
     grid-template-columns: repeat(5, 1fr);
-  }
-
-  #site-content {
-    padding-left: 15%;
-    padding-right: 15%;
   }
 
   #experience > .row {
@@ -27,6 +16,11 @@
   .grid {
     grid-template-columns: repeat(4, 1fr);
   }
+
+  #site-content {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
 }
 
 @media (max-width: 650px) {
@@ -35,7 +29,7 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -56,7 +50,7 @@
     }
 
     .column {
-      margin: 0px;
+      margin: 6%;
       margin-left: auto;
       margin-right: auto;
       padding-left: 0px;

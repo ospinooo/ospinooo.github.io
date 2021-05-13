@@ -22,14 +22,16 @@ const modal_data = {
     link_str: "UpNa",
     subtitle: "4 years.",
     second_subtitle: "By Public University of Navarra - UpNa.",
-    description: `• 23 / 33 courses with Honors.
-    
-    • EURO-INF International program in Informatics Engineering.
-    • Specialized in <strong>Machine Learning, Artificial Intelligence, and Computer Vision.</strong>
+    description: `• Awarded with <strong>highest mark</strong> among the Engineering school in the graduating year 2020. <a href="https://amp.diariodenavarra.es/noticias/navarra/2021/05/07/la-upna-premia-estudiantes-grado-master-725945-300.html">Journal</a>
+
+    • 23 / 33 courses with Honors.
     
     • University student representative in 2017 in the Spanish National Meeting of Students of Technical and Superior Engineering in Computing, Class representative in 2016, 2017, and 2018.
     
-    • Participated in google Hashcode in 2017, 2018 and 2019. Global Game Jam in 2017 and 2018. Hackathon Adidas uCode in 2018.`,
+    • Participated in google Hashcode in 2017, 2018 and 2019. Global Game Jam in 2017 and 2018. Hackathon Adidas uCode in 2018.
+    
+    • EURO-INF International program in Informatics Engineering.
+    • Specialized in <strong>Machine Learning, Artificial Intelligence, and Computer Vision.</strong>`,
     footer: "Pamplona, Spain.",
   },
   lodz:{
@@ -77,7 +79,7 @@ const modal_data = {
     title: "Software Engineer.",
     link_ref: "https://www.nispera.com/",
     link_str: "Nispera AG.",
-    subtitle: humanizeDuration(new Date() - new Date(2020, 6, 15), {
+    subtitle: humanizeDuration(new Date() - new Date(2020, 5, 15), {
       language: "en",
       units: ["y", "mo"],
       maxDecimalPoints: 0,
@@ -305,13 +307,11 @@ function loadDataOnModal(modal, data){
   tags = modal.children[0].children;
   for (let i=0; i<tags.length; i++){
     tag = tags[i];
-    console.log(tag);
     if (tag.id == "link") {
       tag.href = data["link_ref"];
       tag.innerHTML = data["link_str"];
     } else if (tag.id != "" ){
       let str = data[tag.id] || '';
-      console.log(str);
     
       str = str.replace(/\n/g, "<br />");
       tag.innerHTML = str;
@@ -320,13 +320,10 @@ function loadDataOnModal(modal, data){
 }
 
 document.addEventListener("DOMContentLoaded", function(event) {
-  console.log(modal_data);
   // Get the modal
   var modal = document.getElementById("myModal");
-  console.log(modal)
   // Get the button that opens the modal
   var cells = document.getElementsByClassName("cell");
-
 
   for (let i=0; i< cells.length; i++){
     cell = cells[i];
@@ -341,7 +338,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
   // Get the <span> element that closes the modal
   var span = document.getElementsByClassName("close")[0];
-  console.log(span);
   
   // When the user clicks on <span> (x), close the modal
   span.onclick = function() {
