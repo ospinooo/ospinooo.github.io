@@ -14,7 +14,7 @@ const modal_data = {
     • Junior member in the Chorus "Orfeon Pamplones" in 2016.
 
     • Extend my music production experience attending in the summer of 2015 the International Music Production School EUMES in Girona, Barcelona. Working with Cubase Software.`,
-    footer: "Pamplona, Spain.",
+    footer: "Spain",
   },
   upna:{
     title: "Bachelor on Computer Science.",
@@ -32,7 +32,7 @@ const modal_data = {
     
     • EURO-INF International program in Informatics Engineering.
     • Specialized in <strong>Machine Learning, Artificial Intelligence, and Computer Vision.</strong>`,
-    footer: "Pamplona, Spain.",
+    footer: "Spain",
   },
   lodz:{
     title: "Erasmus Exchange on Computer Science.",
@@ -61,19 +61,18 @@ const modal_data = {
     link_str: "EMPRO",
     subtitle: "1 year 6 months",
     second_subtitle: "EMPRO - EOSOL SL.",
-    description: `EMPRO a company that belongs to the group EOSOL SL. EMPRO focus on the monitoring of engineering assets of EOSOL and third clients.
-
-    Main project assigned was the automatic Reports generation. I was the core responsible for the Reports Generation & Notification. Done database design, development, deployment and maintenance. 
+    description: `Designed, develop and deployed automatic reports generation and notification. Worked with Front-end team & Ux-team for the total personalized reports.
   
-    Research on Solar devices with DeepLearning for Predictive maintenance purposes for innovation in new business lines.
-    Contributed to build forecast power-production system.
+    Applied deep-Learning on Predictive maintenance solar devices.
+    
+    Build forecast power-production system.
 
     Main stack:
     • Python (Pandas, numpy, matplotlib, Jinja2, Tensorflow)
     • Javascript (nodejs, ExpressJS, JWT)
     • MySQL & InfluxDB
     • Google Cloud Platform & Docker`,
-    footer: "Pamplona, Spain.",
+    footer: "Spain",
   },
   nispera:{
     title: "Software Engineer.",
@@ -85,11 +84,11 @@ const modal_data = {
       maxDecimalPoints: 0,
     }),
     second_subtitle: "Nispera AG.",
-    description: `Nispera AG is a Start up founded in 2015 with currently more than 400 assets all over the world.
+    description: `• Development on the real-time data acquisition from power-plant assets and third-party forecasting and weather-data services such as NASA (merra2), Metoffice (UK) and DWD (Germany) for more than 400 plant-assets all over the world.
 
-    Main project assigned is the real-time data acquisition from power-plant assets and third party forecasting and weather services such as NASA (merra2), Metoffice (UK) and DWD (Germany).
+    • Real-time alarms detection & notification for devices.
 
-    Also, automatic alarms detection & notification for devices on real-time.
+    • Database-Storage optimization of 50%.
 
     Stack:
     • Python (Pandas, tornado, multiprocessing)
@@ -104,7 +103,8 @@ const modal_data = {
     subtitle: "Static website built with pure HTML, SCSS and JS.",
     second_subtitle: "",
     description: `
-    Simple website built with pure HTML, SCSS and JS as a portfolio.
+    Portfolio Website built with pure HTML, SCSS and JS.
+
     Stack:
     • HTML, SCSS, JS.
     • Github Pages. (Hosting)
@@ -118,15 +118,14 @@ const modal_data = {
     link_ref: "https://github.com/ospinooo/ospinooo.github.io",
     subtitle: "Laravel Website.",
     second_subtitle: "",
-    description: `
-    Website built with laravel server-side php framework. USers can create, edit and like posts. Also, admin side not in demo.
+    description: `Web application built with <strong>laravel</strong>. Users can create, edit and like posts. Also, admin side not in demo.
 
     Stack:
     • Laravel (PHP framework).
     • Js & Ajax for specific features.
     • AWS S3 (images storage).
     • Heroku + Postgres. (Deployment).`,
-    footer: "Pamplona, Spain.",
+    footer: "Spain",
   },
   covid_app:{
     title: "COVID Statistics app.",
@@ -134,15 +133,13 @@ const modal_data = {
     link_ref: "https://github.com/ospinooo/ospinooo.github.io",
     subtitle: "Android App.",
     second_subtitle: "",
-    description: `
-    Simple Android App with general covid statistics from every country. Data taken from a REST API parsed with GSON.
-
+    description: `Android App with general covid statistics from world view and every country. 
     Stack:
     • Android (Java).
     • Mapbox.
     • GSON.
     • Third party API for the covid data.`,
-    footer: "Lodz, Poland.",
+    footer: "Poland",
   },
   flappy_bird_ai:{
     title: "Flappy bird AI.",
@@ -150,14 +147,12 @@ const modal_data = {
     link_ref: "https://github.com/ospinooo/ospinooo.github.io",
     subtitle: "",
     second_subtitle: "",
-    description: `Simple Flappy bird game built on python. 
-
-    Built it with artificial intelligence that learns to play. It follows the NEAT Reinforcement algorithm.
+    description: `Flappy bird learns to play itself. Flappy bird game built on python with the NEAT Reinforcement algorithm.
 
     Stack:
     • Python.
     • Neat library.`,
-    footer: "Pamplona, Spain.",
+    footer: "Spain",
   },
   influx_monitoring:{
     title: "Monitoring with Influx & Grafana.",
@@ -165,15 +160,14 @@ const modal_data = {
     link_ref: "https://github.com/ospinooo",
     subtitle: "Monitoring ready to be deployed with docker compose, runs telegraf, grafana and Influx.",
     second_subtitle: "",
-    description: `
-    Monitoring docker-compose ready-to-deploy.
+    description: `Monitoring docker-compose ready-to-deploy.
 
     Stack:
     • Docker-compose. (CD)
     • Telegraf. (Agent to gather data)
     • Grafana
     • Influx`,
-    footer: "Pamplona, Spain.",
+    footer: "Spain",
   },
   music_events_webapp:{
     title: "Angular WebApp.",
@@ -181,15 +175,13 @@ const modal_data = {
     link_ref: "https://github.com/ospinooo/events-website",
     subtitle: "",
     second_subtitle: `Check it out! <a href="https://pabloospino.com/events-website">link</a>`,
-    description: `WebApp built with Angular in the frontend and Spring-boot in the backend. 
-    
-    Used the Bulma framework for easy-fast interface design.
+    description: `WebApp built with Angular and Bulma (CSS) in the frontend and Spring-boot in the backend. 
 
     Stack:
     • Angular.
     • Bulma. (CSS framework)
     • Github Pages. (deployed)`,
-    footer: "Lodz, Poland.",
+    footer: "Poland",
   },
   music_events_rest_api:{
     title: "Springboot Backend.",
@@ -197,16 +189,16 @@ const modal_data = {
     link_ref: "https://github.com/ospinooo/events-rest-api",
     subtitle: "",
     second_subtitle: "",
-    description: `Rest API for the Music Events App with SpringBoot JWT and Hibernate.
+    description: `Rest API for the Music Events App with Spring-Boot JWT and Hibernate.
 
-    Interesting: developed with a docker-compose postgresql + pgadmin locally.
+    Extras: Developed with a docker-compose postgresql + pgadmin locally for fast-development and testing.
 
     Stack:
     • Springboot.
     • Hibernate. (ORM)
     • PostgreSQL
     • JWT.`,
-    footer: "Lodz, Poland.",
+    footer: "Poland",
   },
   ftask_mobile_app:{
     title: "Android App.",
@@ -225,7 +217,7 @@ const modal_data = {
     • MongoDB.
     • Mapbox services for mapping.
     • Parse framework. (Backend).`,
-    footer: "Pamplona, Spain.",
+    footer: "Spain",
   },
   game_of_life:{
     title: "Conway's Game of Life",
@@ -233,27 +225,33 @@ const modal_data = {
     link_ref: "https://github.com/ospinooo",
     subtitle: "Built with C.",
     second_subtitle: "UI on terminal",
-    description: `One of my first programs. It is simple implementation of the famous game <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Game of life</a> with C programming language on terminal. 
+    description: `One of my first programs. 
+    It is simple implementation of the famous game <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Game of life</a> with C programming language on terminal. 
 
     Stack:
     • C (Programming language)
     • Terminal (UI)`,
-    footer: "Pamplona, Spain.",
+    footer: "Spain",
   },
   parser_programming_language:{
-    title: "Custom programming language compiler with Bison.",
+    title: "Compiler with Bison.",
     link_str: "Github source.",
     link_ref: "https://github.com/ospinooo",
     subtitle: "",
     second_subtitle: "",
-    description: `
-    My own programming language with basic features build.
+    description: `Create a compiler with Bison, C and Yacc. 
+    
+    Implemented:
+    • Variables declaration
+    • Arithmetics expressions
+    • Boolean expressions
+    • Flow statements If/While
 
     Stack:
     • C (Programming language)
     • Bison
     • Yacc`,
-    footer: "Pamplona, Spain.",
+    footer: "Spain",
   },
   celery_scapper:{
     title: "Twitter Celery scrapper.",
@@ -261,13 +259,14 @@ const modal_data = {
     link_ref: "https://github.com/ospinooo",
     subtitle: "Retrieving info from twitter with horizontal scalability.",
     second_subtitle: "",
-    description: `
+    description: `Implemented with the Celery protocol in python for scalability purposes.
+
     Stack:
     • Python.
     • Celery (python framework)
     • MQTT
     • Twitter API.`,
-    footer: "Pamplona, Spain.",
+    footer: "Spain",
   },
   todoist_clone:{
     title: "Todo-ist clone on React.",
@@ -275,11 +274,13 @@ const modal_data = {
     link_ref: "https://github.com/ospinooo",
     subtitle: "",
     second_subtitle: "",
-    description: `Stack:
+    description: `Todo-ist recreation on React/SCSS.
+    
+    Stack:
     • React (Js framework).
     • SCSS.
     • Twitter API.`,
-    footer: "Pamplona, Spain.",
+    footer: "Spain",
   },
   mushsnap:{
     title: "Mushsnap.",
@@ -288,9 +289,10 @@ const modal_data = {
     subtitle: "App to recognize Poison Mushrooms with AI.",
     second_subtitle: "",
     description: `
-    Final thesis project. Research, training, optimization of Model on the Poison Mushrooms classification with Transfer learning.
+    <strong>Final thesis project</strong>. 
+    • Research, training, optimization of Model on the Poison Mushrooms classification with Transfer learning.
 
-    Implemented in 2 architectures:
+    Deployment on 2 architectures:
     - Server-side evaluation.
     - Mobile. Offline evaluation. (Tensorflow lite)
 
@@ -298,7 +300,7 @@ const modal_data = {
     • Python Tensorflow.
     • Flask.
     • Android APP.`,
-    footer: "Pamplona, Spain.",
+    footer: "Spain",
   }
 };
 
