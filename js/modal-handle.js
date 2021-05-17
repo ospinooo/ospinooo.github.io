@@ -108,7 +108,7 @@ const modal_data = {
     Stack:
     • HTML, SCSS, JS.
     • Github Pages. (Hosting)
-    • Cloudfare. (SSL)
+    • Cloudfare. (SSL & CDN)
     • Namecheap. (Domain provider)`,
     footer: "Zurich, Switzerland.",
   },
