@@ -239,7 +239,7 @@ const modal_data = {
     link_ref: "https://github.com/ospinooo",
     subtitle: "",
     second_subtitle: "",
-    description: `Create a compiler with Bison, C and Yacc. 
+    description: `Create a compiler with Bison, C, flex and Yacc. 
     
     Implemented:
     • Variables declaration
@@ -248,9 +248,9 @@ const modal_data = {
     • Flow statements If/While
 
     Stack:
-    • C (Programming language)
-    • Bison
-    • Yacc`,
+    • C
+    • Flex & Yacc
+    • Bison`,
     footer: "Spain",
   },
   celery_scapper:{
