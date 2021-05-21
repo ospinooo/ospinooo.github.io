@@ -115,9 +115,9 @@ const modal_data = {
   photoshare:{
     title: "Photoshare.",
     link_str: "Github source.",
-    link_ref: "https://github.com/ospinooo/ospinooo.github.io",
+    link_ref: "https://github.com/ospinooo/photoshare",
     subtitle: "Laravel Website.",
-    second_subtitle: `Check it out! <a href="https://photoshare.pabloospino.com">link</a>`,
+    second_subtitle: `Check it out! <a href="https://photoshare.pabloospino.com">photoshare.pabloospino.com</a>`,
     description: `Web application built with <strong>laravel</strong>. Users can create, edit and like posts. Also, admin side not in demo.
 
     Stack:
@@ -130,7 +130,7 @@ const modal_data = {
   covid_app:{
     title: "COVID Statistics app.",
     link_str: "Github source.",
-    link_ref: "https://github.com/ospinooo/ospinooo.github.io",
+    link_ref: "https://github.com/ospinooo/coronavirus-mobile-app",
     subtitle: "Android App.",
     second_subtitle: "",
     description: `Android App with general covid statistics from world view and every country. 
@@ -144,7 +144,7 @@ const modal_data = {
   flappy_bird_ai:{
     title: "Flappy bird AI.",
     link_str: "Github source.",
-    link_ref: "https://github.com/ospinooo/ospinooo.github.io",
+    link_ref: "https://github.com/ospinooo/flappy_bird",
     subtitle: "",
     second_subtitle: "",
     description: `Flappy bird learns to play itself. Flappy bird game built on python with the NEAT Reinforcement algorithm.
@@ -157,7 +157,7 @@ const modal_data = {
   influx_monitoring:{
     title: "Monitoring with Influx & Grafana.",
     link_str: "Github source.",
-    link_ref: "https://github.com/ospinooo",
+    link_ref: "https://github.com/ospinooo/monitoring-influx-telegraf-grafana",
     subtitle: "Monitoring ready to be deployed with docker compose, runs telegraf, grafana and Influx.",
     second_subtitle: "",
     description: `Monitoring docker-compose ready-to-deploy.
@@ -174,7 +174,7 @@ const modal_data = {
     link_str: "Github source.",
     link_ref: "https://github.com/ospinooo/events-website",
     subtitle: "",
-    second_subtitle: `Check it out! <a href="https://pabloospino.com/events-website">link</a>`,
+    second_subtitle: `Check it out! <a href="https://pabloospino.com/events-website">pabloospino.com/events-website</a>`,
     description: `WebApp built with Angular and Bulma (CSS) in the frontend and Spring-boot in the backend. 
 
     Stack:
@@ -203,7 +203,7 @@ const modal_data = {
   ftask_mobile_app:{
     title: "Android App.",
     link_str: "Github source.",
-    link_ref: "https://github.com/ospinooo",
+    link_ref: "https://github.com/ospinooo/ftask-mobile-app",
     subtitle: "",
     second_subtitle: "",
     description: `Ftask is a mobile app that lets you find people to work and to work for other people based on your location.
@@ -222,7 +222,7 @@ const modal_data = {
   game_of_life:{
     title: "Conway's Game of Life",
     link_str: "Github source.",
-    link_ref: "https://github.com/ospinooo",
+    link_ref: "https://github.com/ospinooo/game_of_life",
     subtitle: "Built with C.",
     second_subtitle: "UI on terminal",
     description: `One of my first programs. 
@@ -235,8 +235,6 @@ const modal_data = {
   },
   parser_programming_language:{
     title: "Compiler with Bison.",
-    link_str: "Github source.",
-    link_ref: "https://github.com/ospinooo",
     subtitle: "",
     second_subtitle: "",
     description: `Create a compiler with Bison, C, flex and Yacc. 
@@ -256,10 +254,12 @@ const modal_data = {
   celery_scapper:{
     title: "Twitter Celery scrapper.",
     link_str: "Github source.",
-    link_ref: "https://github.com/ospinooo",
+    link_ref: "https://github.com/ospinooo/celery-scrapper",
     subtitle: "Retrieving info from twitter with horizontal scalability.",
     second_subtitle: "",
     description: `Implemented with the Celery protocol in python for scalability purposes.
+
+    Every hour sends a report after scrapping all info from twitter to check trends.
 
     Stack:
     • Python.
@@ -273,7 +273,7 @@ const modal_data = {
     link_str: "Github source.",
     link_ref: "https://github.com/ospinooo",
     subtitle: "",
-    second_subtitle: "",
+    second_subtitle: `Check it out! <a href="https://pabloospino.com/todoist/">pabloospino.com/todoist/</a>`,
     description: `Todo-ist recreation on React/SCSS.
     
     Stack:
@@ -285,7 +285,7 @@ const modal_data = {
   mushsnap:{
     title: "Mushsnap.",
     link_str: "Github source.",
-    link_ref: "https://github.com/ospinooo",
+    link_ref: "https://github.com/ospinooo/todoist",
     subtitle: "App to recognize Poison Mushrooms with AI.",
     second_subtitle: "",
     description: `
