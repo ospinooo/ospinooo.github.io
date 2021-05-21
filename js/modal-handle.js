@@ -117,7 +117,7 @@ const modal_data = {
     link_str: "Github source.",
     link_ref: "https://github.com/ospinooo/ospinooo.github.io",
     subtitle: "Laravel Website.",
-    second_subtitle: "",
+    second_subtitle: `Check it out! <a href="https://photoshare.pabloospino.com">link</a>`,
     description: `Web application built with <strong>laravel</strong>. Users can create, edit and like posts. Also, admin side not in demo.
 
     Stack:
