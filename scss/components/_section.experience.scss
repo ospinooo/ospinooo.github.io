@@ -3,7 +3,11 @@
   height: 100%;
 
   .cell {
+    height: auto;
+    display: flex;
+    flex-direction: column;
     color: rgba(0, 0, 0, 0.8);
+    justify-content: space-around;
   }
 }
 

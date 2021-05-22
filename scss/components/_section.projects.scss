@@ -26,9 +26,15 @@
 #reading {
   .grid {
     display: flex;
-    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+
     .cell {
-      width: 100px;
+      display: flex;
+      height: max-content;
+      margin: auto;
+      justify-content: space-around;
+      flex-direction: column;
+      padding: 10px;
       div {
         box-shadow: none;
         border-radius: none;
