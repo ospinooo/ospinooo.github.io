@@ -1,7 +1,7 @@
 
 
 run_http_server:
-	python -m http.server
+	python3 -m http.server
 
 
 run_sass_compiler_watchs:

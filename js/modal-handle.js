@@ -78,22 +78,40 @@ const modal_data = {
     title: "Software Engineer.",
     link_ref: "https://www.nispera.com/",
     link_str: "Nispera AG.",
-    subtitle: humanizeDuration(new Date() - new Date(2020, 5, 15), {
-      language: "en",
-      units: ["y", "mo"],
-      maxDecimalPoints: 0,
-    }),
+    subtitle: "1 year 10 months",
     second_subtitle: "Nispera AG.",
-    description: `• Development on the real-time data acquisition from power-plant assets and third-party forecasting and weather-data services such as NASA (merra2), Metoffice (UK) and DWD (Germany) for more than 400 plant-assets all over the world.
-
-    • Real-time alarms detection & notification for devices.
-
-    • Database-Storage optimization of 50%.
-
+    description: `• Startup, we exit in April 2022 acquired by Fluency Energy.
+    • Built completely new alerts monitoring system from scratch in python. Service built for realtime detection of errors and delivery to Asset Managers on energy generation assets.
+    • Built CI/CD Pipeline with docker and Kubernetes. Predicate and leverage automated testing within the organization.
+    • Build data ETL pipelines quasi realtime using python with world-wide Worldwide environmental sensors from NASA, ECMWF, DWD, Metoffice10g.
+    • Improve Scalability and reduce costs on Infrastructure. Storage Optimization of 50% on costs with in AWS. Setup and migration of existing services to Kubernetes (EKS) and Helm. Setup load monitoring with Grafana & Prometheus monitoring.
+    
     Stack:
     • Python (Pandas, tornado, multiprocessing)
     • MySQL - Aurora.
     • Amazon Web Services & Rundeck`,
+    footer: "Zurich, Switzerland.",
+  },
+  amun:{
+    title: "Software Engineer.",
+    link_ref: "http://21.co/",
+    link_str: "21.co",
+    subtitle: humanizeDuration(new Date() - new Date(2022, 3, 1), {
+      language: "en",
+      units: ["y", "mo"],
+      maxDecimalPoints: 0,
+    }),
+    second_subtitle: "21.co, 21shares, Amun.",
+    description: `• Startup with 3$Billion AUM (Oct 2021) and 2$Billion valuation (Sep 2022).
+    • Working in a complete remote async team about 10 members across the world.
+    • Cloud Backend development with Javascript, Typescript, NestJS in AWS with Docker. Develop new
+    features on the core Trading and Monitoring platform to control crypto AUM across 40+ products,
+    single cryptos, crypto indexes, shorts, and more complex products.
+    
+    Stack:
+    • Javascript, Typescript.
+    • React, featherJS, NestJS.
+    • AWS & Docker.`,
     footer: "Zurich, Switzerland.",
   },
   this_portfolio:{
